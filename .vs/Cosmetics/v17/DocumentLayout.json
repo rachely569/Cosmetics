@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|solutionrelative:cosmetics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics bll\\categorybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|solutionrelative:cosmetics bll\\categorybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics dal\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|solutionrelative:cosmetics dal\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics dal\\iordersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|solutionrelative:cosmetics dal\\iordersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics dal\\ordersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|solutionrelative:cosmetics dal\\ordersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics dal\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|solutionrelative:cosmetics dal\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics bll\\usersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|solutionrelative:cosmetics bll\\usersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics bll\\productsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|solutionrelative:cosmetics bll\\productsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics bll\\ordersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|solutionrelative:cosmetics bll\\ordersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics bll\\iusersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|solutionrelative:cosmetics bll\\iusersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics bll\\iproductsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|solutionrelative:cosmetics bll\\iproductsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics bll\\iordersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|solutionrelative:cosmetics bll\\iordersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics bll\\icategorybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBF3744-F599-4AA7-A5D3-127213A6AC37}|Cosmetics Bll\\Cosmetics Bll.csproj|solutionrelative:cosmetics bll\\icategorybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|solutionrelative:cosmetics\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|solutionrelative:cosmetics\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|solutionrelative:cosmetics\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|solutionrelative:cosmetics\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics dal\\productsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E0AFBA-F02E-4C70-855B-80610C418F3D}|Cosmetics Dal\\Cosmetics Dal.csproj|solutionrelative:cosmetics dal\\productsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|solutionrelative:cosmetics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|c:\\users\\asus\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmetics\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E24893FA-45F1-4315-A276-20AE146760D2}|Cosmetics\\Cosmetics.csproj|solutionrelative:cosmetics\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF55D23-9C82-48E2-BA78-5027D8995D2A}|CosmeticsDTO\\CosmeticsDTO.csproj|C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\cosmeticsdto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF55D23-9C82-48E2-BA78-5027D8995D2A}|CosmeticsDTO\\CosmeticsDTO.csproj|solutionrelative:cosmeticsdto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersDal.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\OrdersDal.cs",
+              "RelativeDocumentMoniker": "Cosmetics Dal\\OrdersDal.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\OrdersDal.cs",
+              "RelativeToolTip": "Cosmetics Dal\\OrdersDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T21:30:21.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IordersDal.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\IordersDal.cs",
+              "RelativeDocumentMoniker": "Cosmetics Dal\\IordersDal.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\IordersDal.cs",
+              "RelativeToolTip": "Cosmetics Dal\\IordersDal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T21:29:27.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IcategoryDal.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\IcategoryDal.cs",
+              "RelativeDocumentMoniker": "Cosmetics Dal\\IcategoryDal.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\IcategoryDal.cs",
+              "RelativeToolTip": "Cosmetics Dal\\IcategoryDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T21:29:04.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUsersBll.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\IUsersBll.cs",
+              "RelativeDocumentMoniker": "Cosmetics Bll\\IUsersBll.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\IUsersBll.cs",
+              "RelativeToolTip": "Cosmetics Bll\\IUsersBll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T21:28:36.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersBll.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\OrdersBll.cs",
+              "RelativeDocumentMoniker": "Cosmetics Bll\\OrdersBll.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\OrdersBll.cs",
+              "RelativeToolTip": "Cosmetics Bll\\OrdersBll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T20:42:14.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryDal.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\CategoryDal.cs",
+              "RelativeDocumentMoniker": "Cosmetics Dal\\CategoryDal.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\CategoryDal.cs",
+              "RelativeToolTip": "Cosmetics Dal\\CategoryDal.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T21:08:45.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\CategoryBLL.cs",
+              "RelativeDocumentMoniker": "Cosmetics Bll\\CategoryBLL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\CategoryBLL.cs",
+              "RelativeToolTip": "Cosmetics Bll\\CategoryBLL.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T20:41:48.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Program.cs",
+              "RelativeDocumentMoniker": "Cosmetics\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Program.cs",
+              "RelativeToolTip": "Cosmetics\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T16:16:51.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOrdersBll.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\IOrdersBll.cs",
+              "RelativeDocumentMoniker": "Cosmetics Bll\\IOrdersBll.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\IOrdersBll.cs",
+              "RelativeToolTip": "Cosmetics Bll\\IOrdersBll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T21:28:32.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICategoryBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\ICategoryBLL.cs",
+              "RelativeDocumentMoniker": "Cosmetics Bll\\ICategoryBLL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\ICategoryBLL.cs",
+              "RelativeToolTip": "Cosmetics Bll\\ICategoryBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T21:28:30.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Cosmetics\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Cosmetics\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:50:55.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsBll.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\ProductsBll.cs",
+              "RelativeDocumentMoniker": "Cosmetics Bll\\ProductsBll.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\ProductsBll.cs",
+              "RelativeToolTip": "Cosmetics Bll\\ProductsBll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:38:12.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersBll.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\UsersBll.cs",
+              "RelativeDocumentMoniker": "Cosmetics Bll\\UsersBll.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\UsersBll.cs",
+              "RelativeToolTip": "Cosmetics Bll\\UsersBll.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T16:18:29.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Cosmetics\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Cosmetics\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:50:55.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Cosmetics\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Cosmetics\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:50:44.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductsBll.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\IProductsBll.cs",
+              "RelativeDocumentMoniker": "Cosmetics Bll\\IProductsBll.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Bll\\IProductsBll.cs",
+              "RelativeToolTip": "Cosmetics Bll\\IProductsBll.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:25:50.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Cosmetics\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Cosmetics\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:33:36.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductsDal.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\ProductsDal.cs",
+              "RelativeDocumentMoniker": "Cosmetics Dal\\ProductsDal.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics Dal\\ProductsDal.cs",
+              "RelativeToolTip": "Cosmetics Dal\\ProductsDal.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T21:03:19.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\appsettings.json",
+              "RelativeDocumentMoniker": "Cosmetics\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\appsettings.json",
+              "RelativeToolTip": "Cosmetics\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-19T14:51:07.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Cosmetics\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\Cosmetics\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Cosmetics\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-20T16:30:59.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Auto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\CosmeticsDTO\\Auto.cs",
+              "RelativeDocumentMoniker": "CosmeticsDTO\\Auto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8\\project\\server\\CosmeticsDTO\\Auto.cs",
+              "RelativeToolTip": "CosmeticsDTO\\Auto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T16:16:01.73Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
