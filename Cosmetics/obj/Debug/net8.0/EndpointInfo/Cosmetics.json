@@ -513,35 +513,6 @@
           }
         }
       },
-      "post": {
-        "tags": [
-          "Users"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      },
       "put": {
         "tags": [
           "Users"
@@ -632,6 +603,68 @@
           }
         }
       }
+    },
+    "/api/Users/register": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsersRegisterModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsersRegisterModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsersRegisterModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Users/login": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsersLoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsersLoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsersLoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -639,11 +672,11 @@
       "CategoryDTO": {
         "type": "object",
         "properties": {
-          "categoryId": {
+          "CategoryId": {
             "type": "integer",
             "format": "int32"
           },
-          "categoryName": {
+          "CategoryName": {
             "type": "string",
             "nullable": true
           }
@@ -653,12 +686,21 @@
       "OrdersDTO": {
         "type": "object",
         "properties": {
-          "orderId": {
+          "OrderId": {
             "type": "integer",
             "format": "int32"
           },
-          "orderName": {
+          "OrderDate": {
             "type": "string",
+            "format": "date-time"
+          },
+          "TotalAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },
@@ -667,11 +709,32 @@
       "ProductDTO": {
         "type": "object",
         "properties": {
-          "productId": {
+          "ProductId": {
             "type": "integer",
             "format": "int32"
           },
-          "productName": {
+          "ProductName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CategoryId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "nullable": true
+          },
+          "Price": {
+            "type": "number",
+            "format": "double"
+          },
+          "StockQuantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ImageSrc": {
             "type": "string",
             "nullable": true
           }
@@ -681,11 +744,75 @@
       "UsersDTO": {
         "type": "object",
         "properties": {
-          "userId": {
+          "UserId": {
             "type": "integer",
             "format": "int32"
           },
-          "userName": {
+          "Username": {
+            "type": "string",
+            "nullable": true
+          },
+          "Password": {
+            "type": "string",
+            "nullable": true
+          },
+          "FirstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "LastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "Address": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsersLoginModel": {
+        "type": "object",
+        "properties": {
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsersRegisterModel": {
+        "type": "object",
+        "properties": {
+          "Username": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Password": {
+            "type": "string",
+            "nullable": true
+          },
+          "FirstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "LastName": {
             "type": "string",
             "nullable": true
           }

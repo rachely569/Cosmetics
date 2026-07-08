@@ -1,23 +1,23 @@
 ﻿using Cosmetics_Dal.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cosmetics_Dal
 {
-    public interface IordersDal
+    public interface IOrdersDal
     {
-            List<Orders> GetAllOrders();
+        List<Orders> GetAllOrders();
 
-            Orders GetOrdersById(int id);
+        Orders GetOrdersById(int id);
 
-            void AddOrders(Orders orders);
+        List<Orders> GetOrdersByUserId(int userId);
 
-            void DeleteOrders(int ordersId);
+        List<Orders> GetOrdersByDate(DateTime date);
 
-            void UpdateOrders(Orders orders);
-        
+        void AddOrders(Orders orders);
+
+        void DeleteOrders(int ordersId);
+
+        void UpdateOrders(Orders orders);
     }
 }

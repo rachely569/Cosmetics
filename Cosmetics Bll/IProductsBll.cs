@@ -1,9 +1,5 @@
 ﻿using Cosmetics_Dal.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cosmetics_Bll
 {
@@ -12,6 +8,10 @@ namespace Cosmetics_Bll
         List<Products> GetAllProducts();
 
         Products GetProductsById(int id);
+
+        List<Products> GetProductsByCategory(int categoryId);
+
+        List<Products> GetProductsWithZeroStock();
 
         void AddProducts(Products products);
 

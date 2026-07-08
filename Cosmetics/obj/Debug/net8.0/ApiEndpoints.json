@@ -339,28 +339,6 @@
   },
   {
     "ContainingType": "Cosmetics.Controllers.UsersController",
-    "Method": "Post",
-    "RelativePath": "api/Users",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "newUser",
-        "Type": "CosmeticsDTO.UsersDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Cosmetics.Controllers.UsersController",
     "Method": "Put",
     "RelativePath": "api/Users",
     "HttpMethod": "PUT",
@@ -428,5 +406,37 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Cosmetics.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "Cosmetics.Controllers.UsersLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Cosmetics.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerModel",
+        "Type": "Cosmetics.Controllers.UsersRegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

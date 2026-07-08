@@ -174,4 +174,3 @@ C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Dal
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Dal\obj\Debug\Cosmetic.65E0E79C.Up2Date
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Dal\obj\Debug\Cosmetics Dal.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Dal\obj\Debug\Cosmetics Dal.pdb
-C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Dal\obj\Debug\Cosmetics Dal.dll.config

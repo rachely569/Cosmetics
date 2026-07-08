@@ -15,11 +15,12 @@ namespace CosmeticsDTO
             CreateMap<Categories, CategoryDTO>();
             CreateMap<CategoryDTO, Categories>();
 
-            CreateMap<ProductDTO,Products>();
+            CreateMap<ProductDTO, Products>();
             CreateMap<Products, ProductDTO>();
 
             CreateMap<OrdersDTO, Orders>();
             CreateMap<Orders, OrdersDTO>();
+
 
             CreateMap<UsersDTO, Users>();
             CreateMap<Users, UsersDTO>();

@@ -2,17 +2,14 @@
 using Cosmetics_Dal.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cosmetics_Bll
 {
     public class OrdersBll : IOrdersBll
     {
-        private readonly IordersDal _ordersDal;
+        private readonly IOrdersDal _ordersDal;
 
-        public OrdersBll(IordersDal ordersDal)
+        public OrdersBll(IOrdersDal ordersDal)
         {
             _ordersDal = ordersDal;
         }
@@ -35,6 +32,16 @@ namespace Cosmetics_Bll
         public Orders GetOrdersById(int id)
         {
             return _ordersDal.GetOrdersById(id);
+        }
+
+        public List<Orders> GetOrdersByUserId(int userId)
+        {
+            return _ordersDal.GetOrdersByUserId(userId);
+        }
+
+        public List<Orders> GetOrdersByDate(DateTime date)
+        {
+            return _ordersDal.GetOrdersByDate(date);
         }
 
         public void UpdateOrders(Orders orders)

@@ -1,16 +1,13 @@
 ﻿using Cosmetics_Dal;
 using Cosmetics_Dal.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cosmetics_Bll
 {
     public class CategoryBLL : ICategoryBLL
     {
-        ICategoriesDal categoryDal;
+        private readonly ICategoriesDal categoryDal;
+
         public CategoryBLL(ICategoriesDal categoryDal)
         {
             this.categoryDal = categoryDal;
@@ -36,10 +33,19 @@ namespace Cosmetics_Bll
             return categoryDal.GetCategoriesById(id);
         }
 
+        public Categories GetCategoryByName(string categoryName)
+        {
+            return categoryDal.GetCategoryByName(categoryName);
+        }
+
+        public Categories GetCategoryByCode(int categoryCode)
+        {
+            return categoryDal.GetCategoryByCode(categoryCode);
+        }
+
         public void UpdateCategories(Categories category)
         {
             categoryDal.UpdateCategories(category);
         }
-
     }
 }

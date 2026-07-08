@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cosmetics_Dal
 {
@@ -31,6 +29,10 @@ namespace Cosmetics_Dal
                 db.Categories.Remove(category);
                 db.SaveChanges();
             }
+            else
+            {
+                throw new ArgumentException($"Category with ID {CategoryId} could not be found to delete.");
+            }
         }
 
         public List<Categories> GetAllCategories()
@@ -41,6 +43,17 @@ namespace Cosmetics_Dal
         public Categories GetCategoriesById(int id)
         {
             return db.Categories.Find(id);
+        }
+
+        public Categories GetCategoryByName(string categoryName)
+        {
+            return db.Categories.FirstOrDefault(c => c.CategoryName == categoryName);
+        }
+
+        // "Code" here refers to the category's identifying number (CategoryId)
+        public Categories GetCategoryByCode(int categoryCode)
+        {
+            return db.Categories.Find(categoryCode);
         }
 
         public void UpdateCategories(Categories category)

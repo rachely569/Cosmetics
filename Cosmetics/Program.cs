@@ -13,27 +13,27 @@ builder.Services.AddControllers().AddJsonOptions(option =>
 {
     option.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
     option.JsonSerializerOptions.WriteIndented = true;
+    option.JsonSerializerOptions.PropertyNamingPolicy = null;
 });
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Dependency Injection
 builder.Services.AddScoped<ICategoryBLL, CategoryBLL>();
 builder.Services.AddScoped<ICategoriesDal, CategoryDal>();
-
 builder.Services.AddScoped<IUsersBll, UsersBll>();
 builder.Services.AddScoped<IUsersDal, UsersDal>();
-
 builder.Services.AddScoped<IProductsBll, ProductsBll>();
 builder.Services.AddScoped<IProductDal, ProductsDal>();
-
 builder.Services.AddScoped<IOrdersBll, OrdersBll>();
-builder.Services.AddScoped<IordersDal, OrdersDal>();
+builder.Services.AddScoped<IOrdersDal, OrdersDal>();
 
 builder.Services.AddDbContext<SHOPContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddCors(p => p.AddPolicy("AlowAll", option =>
+// CORS Policy definition
+builder.Services.AddCors(p => p.AddPolicy("AllowAll", option =>
 {
     option.AllowAnyMethod();
     option.AllowAnyHeader();
@@ -49,12 +49,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AlowAll");
-
-app.UseHttpsRedirection();
+// מיקום מתוקן: ה-CORS חייב להופיע לפני ה-Authorization וה-Controllers
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

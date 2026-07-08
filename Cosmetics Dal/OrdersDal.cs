@@ -2,14 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cosmetics_Dal
 {
-    public class OrdersDal : IordersDal
+    public class OrdersDal : IOrdersDal
     {
-        SHOPContext db;
+        private readonly SHOPContext db;
 
         public OrdersDal(SHOPContext db)
         {
@@ -24,11 +22,17 @@ namespace Cosmetics_Dal
 
         public void DeleteOrders(int OrdersId)
         {
-            var Order = db.Orders.ToList().Find(x => x.OrderId == OrdersId);
-            db.Orders.Remove(Order);
-            db.SaveChanges();
+            var order = db.Orders.Find(OrdersId);
+            if (order != null)
+            {
+                db.Orders.Remove(order);
+                db.SaveChanges();
+            }
+            else
+            {
+                throw new ArgumentException($"Order with ID {OrdersId} could not be found to delete.");
+            }
         }
-
 
         public List<Orders> GetAllOrders()
         {
@@ -37,14 +41,33 @@ namespace Cosmetics_Dal
 
         public Orders GetOrdersById(int id)
         {
-            return db.Orders.ToList().Find(x => x.OrderId == id);
+            return db.Orders.Find(id);
+        }
+
+        public List<Orders> GetOrdersByUserId(int userId)
+        {
+            return db.Orders.Where(o => o.UserId == userId).ToList();
+        }
+
+        // Bonus requirement: lookup by date (matches the calendar day, ignoring time of day)
+        public List<Orders> GetOrdersByDate(DateTime date)
+        {
+            return db.Orders.Where(o => o.OrderDate.Date == date.Date).ToList();
         }
 
         public void UpdateOrders(Orders order)
         {
-            var orders = db.Orders.ToList().Find(x => x.OrderId == order.OrderId);
-            orders.TotalAmount = order.TotalAmount;
-            db.SaveChanges();
+            var existingOrder = db.Orders.Find(order.OrderId);
+            if (existingOrder != null)
+            {
+                existingOrder.TotalAmount = order.TotalAmount;
+                existingOrder.OrderDate = order.OrderDate;
+                db.SaveChanges();
+            }
+            else
+            {
+                throw new ArgumentException($"Order with ID {order.OrderId} could not be found to update.");
+            }
         }
     }
 }

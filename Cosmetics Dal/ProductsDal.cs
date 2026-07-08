@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cosmetics_Dal
 {
@@ -31,6 +29,10 @@ namespace Cosmetics_Dal
                 db.Products.Remove(product);
                 db.SaveChanges();
             }
+            else
+            {
+                throw new ArgumentException($"Product with ID {ProductId} could not be found to delete.");
+            }
         }
 
         public List<Products> GetAllProducts()
@@ -43,6 +45,17 @@ namespace Cosmetics_Dal
             return db.Products.Find(id);
         }
 
+        public List<Products> GetProductsByCategory(int categoryId)
+        {
+            return db.Products.Where(p => p.CategoryId == categoryId).ToList();
+        }
+
+        // Used by the admin dashboard to show low/no-stock alerts
+        public List<Products> GetProductsWithZeroStock()
+        {
+            return db.Products.Where(p => p.StockQuantity == 0).ToList();
+        }
+
         public void UpdateProducts(Products products)
         {
             // Find the existing record in the database using the incoming object's ID
@@ -51,11 +64,13 @@ namespace Cosmetics_Dal
             // Null check prevents the application from crashing if the ID doesn't exist
             if (currentProduct != null)
             {
-                // Update the fields with the new values sent from the incoming payload
+                // Update every editable field with the values sent from the incoming payload
                 currentProduct.ProductName = products.ProductName;
                 currentProduct.Price = products.Price;
                 currentProduct.CategoryId = products.CategoryId;
-                // Add any other specific product fields you want updated here
+                currentProduct.Description = products.Description;
+                currentProduct.StockQuantity = products.StockQuantity;
+                currentProduct.ImageSrc = products.ImageSrc;
 
                 db.SaveChanges();
             }

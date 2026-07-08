@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "g4HfzOtVfHo=",
+  "dgSpecHash": "F0wBQ3+TkWo=",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\Cosmetics\\Cosmetics.csproj",
   "expectedPackageFiles": [
@@ -116,5 +116,18 @@
     "C:\\Users\\Asus\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 10.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\Cosmetics\\Cosmetics.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\Cosmetics\\Cosmetics.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

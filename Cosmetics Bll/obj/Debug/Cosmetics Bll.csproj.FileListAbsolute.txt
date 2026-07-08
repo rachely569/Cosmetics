@@ -90,6 +90,7 @@ C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.EntityFrameworkCore.dll
@@ -118,12 +119,12 @@ C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.IdentityModel.Logging.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\System.Buffers.dll
-C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Cosmetics Dal.pdb
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Cosmetics Dal.dll.config
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.EntityFrameworkCore.xml
@@ -152,7 +153,6 @@ C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Microsoft.IdentityModel.Logging.xml
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\System.Buffers.xml
-C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Asus\Documents\לימודים\אנגולר\project\server\Cosmetics Bll\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll

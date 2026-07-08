@@ -9,7 +9,18 @@
         "projectUniqueName": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\Cosmetics Bll\\Cosmetics Bll.csproj",
         "projectName": "Cosmetics Bll",
         "projectPath": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\Cosmetics Bll\\Cosmetics Bll.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
         "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net472": {
             "framework": "net472",
@@ -19,7 +30,12 @@
               }
             }
           }
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low"
+        },
+        "packagesConfigPath": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\Cosmetics Bll\\packages.config"
       },
       "frameworks": {
         "net472": {
@@ -32,13 +48,29 @@
         "projectUniqueName": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\Cosmetics Dal\\Cosmetics Dal.csproj",
         "projectName": "Cosmetics Dal",
         "projectPath": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\Cosmetics Dal\\Cosmetics Dal.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
         "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net472": {
             "framework": "net472",
             "projectReferences": {}
           }
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low"
+        },
+        "packagesConfigPath": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\Cosmetics Dal\\packages.config"
       },
       "frameworks": {
         "net472": {
@@ -51,7 +83,18 @@
         "projectUniqueName": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\CosmeticsDTO\\CosmeticsDTO.csproj",
         "projectName": "CosmeticsDTO",
         "projectPath": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\CosmeticsDTO\\CosmeticsDTO.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
         "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net472": {
             "framework": "net472",
@@ -61,7 +104,12 @@
               }
             }
           }
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low"
+        },
+        "packagesConfigPath": "C:\\Users\\Asus\\Documents\\לימודים\\אנגולר\\project\\server\\CosmeticsDTO\\packages.config"
       },
       "frameworks": {
         "net472": {
@@ -144,6 +192,10 @@
               "target": "Package",
               "version": "[10.0.8, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -168,7 +220,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,19 +1,13 @@
 ﻿using Cosmetics_Dal;
 using Cosmetics_Dal.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cosmetics_Bll
 {
     public class UsersBll : IUsersBll
     {
-        // Changed type to use the interface
         private readonly IUsersDal _usersDal;
 
-        // The constructor now correctly requests the interface registered in Program.cs
         public UsersBll(IUsersDal usersDal)
         {
             _usersDal = usersDal;
@@ -37,6 +31,16 @@ namespace Cosmetics_Bll
         public Users GetUsersById(int id)
         {
             return _usersDal.GetUsersById(id);
+        }
+
+        public Users GetUserByCode(int userCode)
+        {
+            return _usersDal.GetUserByCode(userCode);
+        }
+
+        public Users GetUserByUsernameAndPassword(string username, string password)
+        {
+            return _usersDal.GetUserByUsernameAndPassword(username, password);
         }
 
         public void UpdateUsers(Users user)

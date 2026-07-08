@@ -1,9 +1,6 @@
 ﻿using Cosmetics_Dal.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cosmetics_Bll
 {
@@ -13,11 +10,14 @@ namespace Cosmetics_Bll
 
         Orders GetOrdersById(int id);
 
+        List<Orders> GetOrdersByUserId(int userId);
+
+        List<Orders> GetOrdersByDate(DateTime date);
+
         void AddOrders(Orders orders);
 
         void DeleteOrders(int ordersId);
 
         void UpdateOrders(Orders orders);
-
     }
 }
